@@ -51,9 +51,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\Src\UnitsNet.Geometry\UnitsNet.Geometry.net35.csproj">
       <Project>{9C0CC226-5AA6-466B-AF25-51DB601DCCD7}</Project>
       <Name>UnitsNet.Geometry.net35</Name>
