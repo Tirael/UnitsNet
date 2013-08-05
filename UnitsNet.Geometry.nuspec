@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>UnitsNet.Geometry</id>
+        <version>1.5.0</version>
+        <title>Units.NET - Geometry</title>
+        <authors>Andreas Larsen</authors>
+        <owners>Initial Force AS</owners>
+        <licenseUrl>https://github.com/InitialForce/UnitsNet/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/InitialForce/UnitsNet</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Geometry builds on Units.NET and adds shapes and geometric calculations to units of measurement. It is light-weight, unit tested and supports PCL.</description>
+        <summary>Simplifies working with geometry and units of measurement.</summary>
+        <releaseNotes>Added Rectangle class.</releaseNotes>
+        <copyright>Copyright © 2007-2013 Initial Force AS</copyright>
+        <language>en-US</language>
+        <tags>geometry geometric shape shapes unit units si metric imperial abbreviation abbreviations convert parse</tags>
+    </metadata>
+    <files>
+        <!--file src="bin\UnitsNet.Geometry.pcl.dll" target="lib\portable-win+net40+sl40+wp+Xbox40\UnitsNet.Geometry.pcl.dll" /-->
+        <file src="bin\UnitsNet.Geometry.net35.dll" target="lib\net35-client\UnitsNet.Geometry.net35.dll" />
+        <!--file src="bin\UnitsNet.Geometry.sl4.dll" target="lib\sl4\UnitsNet.Geometry.sl4.dll" /-->
+        <!--file src="bin\UnitsNet.Geometry.netcore45\UnitsNet.netcore45.dll" target="lib\netcore45\UnitsNet.Geometry.netcore45.dll" /-->
+    </files>
+</package>
