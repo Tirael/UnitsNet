@@ -116,7 +116,7 @@ namespace UnitsNet
         /// </summary>
         public Vector2 Centimeters
         {
-            get { return new Vector2(Meters.X*1E2, Meters.Y*1E2); }
+            get { return new Vector2(X.Centimeters, Y.Centimeters); }
         }
 
         /// <summary>
@@ -124,7 +124,7 @@ namespace UnitsNet
         /// </summary>
         public Vector2 Millimeters
         {
-            get { return new Vector2(Meters.X*1E3, Meters.Y*1E3); }
+            get { return new Vector2(X.Millimeters, Y.Millimeters); }
         }
 
         public Vector2 Micrometers
