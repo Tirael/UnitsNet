@@ -22,7 +22,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9A9082
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Geometry", "Geometry", "{AD244370-83F5-44FE-B577-406E9E340386}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitsNet.Geometry.net35", "UnitsNet.Geometry\UnitsNet.Geometry.net35\UnitsNet.Geometry.net35.csproj", "{9C0CC226-5AA6-466B-AF25-51DB601DCCD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitsNet.Geometry.net35", "UnitsNet.Geometry\UnitsNet.Geometry.net35.csproj", "{9C0CC226-5AA6-466B-AF25-51DB601DCCD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitsNet.Geometry.Tests.net35", "..\Tests\UnitsNet.Geometry.Tests.net35\UnitsNet.Geometry.Tests.net35.csproj", "{FD5B7758-EDB3-44DE-A292-87ED4068778B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,12 +104,23 @@ Global
 		{9C0CC226-5AA6-466B-AF25-51DB601DCCD7}.Release|ARM.ActiveCfg = Release|Any CPU
 		{9C0CC226-5AA6-466B-AF25-51DB601DCCD7}.Release|x64.ActiveCfg = Release|Any CPU
 		{9C0CC226-5AA6-466B-AF25-51DB601DCCD7}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD5B7758-EDB3-44DE-A292-87ED4068778B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5B7758-EDB3-44DE-A292-87ED4068778B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5B7758-EDB3-44DE-A292-87ED4068778B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FD5B7758-EDB3-44DE-A292-87ED4068778B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FD5B7758-EDB3-44DE-A292-87ED4068778B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD5B7758-EDB3-44DE-A292-87ED4068778B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5B7758-EDB3-44DE-A292-87ED4068778B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5B7758-EDB3-44DE-A292-87ED4068778B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FD5B7758-EDB3-44DE-A292-87ED4068778B}.Release|x64.ActiveCfg = Release|Any CPU
+		{FD5B7758-EDB3-44DE-A292-87ED4068778B}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6D74103A-9393-42E8-83A8-9E01F806E29D} = {4DC016EB-1ED1-4EAA-8537-E47278281BDC}
+		{FD5B7758-EDB3-44DE-A292-87ED4068778B} = {4DC016EB-1ED1-4EAA-8537-E47278281BDC}
 		{9C0CC226-5AA6-466B-AF25-51DB601DCCD7} = {AD244370-83F5-44FE-B577-406E9E340386}
 	EndGlobalSection
 EndGlobal
