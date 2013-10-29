@@ -415,6 +415,25 @@ namespace UnitsNet
             }
         }
 
+        private static bool TryConvert(Angle angle, AngleUnits toUnits, out double newValue)
+        {
+            switch (toUnits)
+            {
+                case AngleUnits.Degrees:
+                    newValue = angle.Degrees;
+                    return true;
+                case AngleUnits.Radians:
+                    newValue = angle.Radians;
+                    return true;
+                case AngleUnits.Gradians:
+                    newValue = angle.Gradians;
+                    return true;
+                default:
+                    newValue = 0;
+                    return false;
+            }
+        }
+
         private static bool TryConvert(Volume volume, Unit toUnit, out double newValue)
         {
             switch (toUnit)
