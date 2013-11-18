@@ -116,6 +116,16 @@ namespace UnitsNet.Attributes
     }
 
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = false)]
+    public class TemperatureAttribute : UnitAttribute
+    {
+        public override Unit BaseUnit { get { return Unit.Kelvin; } }
+        public override string XmlDocSummary { get { return "A temperature is a numerical measure of hot or cold. Its measurement is by detection of heat radiation or particle velocity or kinetic energy, or by the bulk behavior of a thermometric material. It may be calibrated in any of various temperature scales, Celsius, Fahrenheit, Kelvin, etc. The fundamental physical definition of temperature is provided by thermodynamics."; } }
+        public TemperatureAttribute(double ratio, string pluralName = (string)null) : base(pluralName, ratio)
+        {
+        }
+    }
+
+    [AttributeUsage(AttributeTargets.Field, AllowMultiple = false)]
     public class TorqueAttribute : UnitAttribute
     {
         public override Unit BaseUnit { get { return Unit.Newtonmeter; } }
