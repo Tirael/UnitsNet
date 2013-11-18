@@ -177,5 +177,14 @@ namespace UnitsNet
         // Metric
         [RotationalSpeed(1, "RevolutionsPerSecond")] RevolutionPerSecond,
         [RotationalSpeed(60, "RevolutionsPerMinute")] RevolutionPerMinute,
+
+        [Temperature(1)] Celsius,
+        [Temperature(1)] Delisle,
+        [Temperature(1)] Fahrenheit,
+        [Temperature(1)] Kelvin,
+        [Temperature(1)] Newton,
+        [Temperature(1)] Rankine,
+        [Temperature(1)] Reaumur,
+        [Temperature(1)] Roemer,
     } 
  }
